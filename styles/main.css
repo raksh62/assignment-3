@@ -1,0 +1,16 @@
+html {box-sizing: border-box;}
+*, *::before, *::after {box-sizing: inherit;}
+
+.btn{
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#E85C20;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px;
+    width: 200px;
+}
+.btn:hover{
+    transform: scale(1.3);
+}
