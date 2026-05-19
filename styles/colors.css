@@ -1,7 +1,16 @@
 :root{
---dark: #0f2a1a
---green: #2e6446
---lightgreen: #0c1c12
+--dark: #0f2a1a;
+--light-green: #2e6446;
+--green: #0c1c12;
+--gold: #e8a020;
+--orange: #e85c20;
+--teal: #79cdc2;
+--radius: 10px;
+
+
+
+
+
 
 
 
