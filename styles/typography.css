@@ -1,0 +1,16 @@
+.title{
+font-size:4rem;
+font-weight: 600;
+text-transform:uppercase;
+color: white;
+}
+.title-head{
+font-size: 1.2rem;
+font-weight: 500;
+color: white;
+}
+.description{
+font-size: 0.8rem;
+font-weight: 200;
+color: #79CDC2;
+}

@@ -1,3 +1,5 @@
+
+
 html {box-sizing: border-box;}
 *, *::before, *::after {box-sizing: inherit;}
 
@@ -28,7 +30,40 @@ padding: 0px 28px 48px;
 }
 
 .hero-home{
-    padding:60px 0px 40px
+    padding:28px 0
+}
+
+.hero-buttons{
+display: flex;
+gap: 16px;
+margin-top: 20px;
+}
+
+.menu-items{
+    padding: 24px 0;
+}
+
+.grid{
+    display: flex;
+    gap:64px;
+    align-items: center;
+}
+
+.image-card{
+    position: relative;
+    flex: 1;
+}
+
+.image-card img{
+    width: 100%;
+    height:180px;
+    object-fit: cover;
+}
+.image-card h3{
+    position: absolute;
+    left: 20px;
+    bottom: 18px;
+    color: white;
 }
 
 nav{
@@ -54,14 +89,29 @@ nav a {
 .btn:hover{
     transform: scale(1.05);
 }
+.hero-buttons{
+    display: inline-block;
+}
 
-.reserve-btn{
+
+.story-btn{
+display: inline-block;
+background-color: var(--dark);
+border-radius: 10px;
+border: 3px solid var(--gold);
+text-decoration: none;
+padding: 12px 24px;
+color: var(--gold);
+}
+
+.gold-btn{
     display: inline-block;
     background-color: var(--gold);
     color:var(--dark);
     text-decoration: none;
     padding: 12px 24px;
     border-radius: 10px;
+    border: 2px solid white;
 }
 .reserve-btn:hover{
     transform: scale(1.05);
@@ -84,13 +134,14 @@ nav a {
 .location-section{
     display: flex;
     gap: 20px;
-    padding: 30px 48px;
+    padding:8px 48px 30px;
 }
 
 .location-card{
 background-color: var(--light-green);
 border-radius: 12px;
 padding: 24px;
+flex: 1;
 }
 
 .location-name {
