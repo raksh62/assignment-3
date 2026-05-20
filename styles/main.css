@@ -10,8 +10,25 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background: var(--dark);
+    background: var(--dark-green);
     position: sticky;
+}
+
+.site-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-green);
+    padding: 24px 50px;
+}
+
+.home{
+background-color: var(--dark);
+padding: 0px 28px 48px;
+}
+
+.hero-home{
+    padding:60px 0px 40px
 }
 
 nav{
@@ -38,15 +55,32 @@ nav a {
     transform: scale(1.05);
 }
 
+.reserve-btn{
+    display: inline-block;
+    background-color: var(--gold);
+    color:var(--dark);
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+.reserve-btn:hover{
+    transform: scale(1.05);
+}
+
 .menu-buttons{
     display: flex;
     gap: 8px;
     padding: 12px;
 }
 
-.dish-list{
-
+.section-title{
+    color: var(--gold);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
 }
+
+
 .location-section{
     display: flex;
     gap: 20px;
@@ -62,10 +96,10 @@ padding: 24px;
 .location-name {
 font-size: 1.3rem;
 font-weight: 600;
-color: var(--teal);
+color: var(--orange);
 }
 
 .location-phone {
-color: var(--gold);
+color: var(--teal);
 font-size: 0.9rem;
 }
