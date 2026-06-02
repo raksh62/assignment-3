@@ -190,3 +190,20 @@ color: var(--orange);
 color: var(--teal);
 font-size: 0.9rem;
 }
+.checkout-title{
+    color:var(--gold);
+    font-size: 3rem;
+    font-weight:500;
+    margin-left: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+.checkout-card{
+    background-color: var(--light-green);
+    color:var(--teal);
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 850px;
+}
