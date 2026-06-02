@@ -14,8 +14,32 @@
    <h1>A Day In Bkk</h1>
     </header>
     <main>
-        <h2>1. YOUR DETAILS </h2>
-         
+        <h2>1.YOUR DETAILS </h2>
+         <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname"name="lname">
+            <label for="pnumber">Phone Number:</label>
+            <input type="tel" name="pnumber" id="pnumber">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+         </form>
+
+         <h2>2.ORDER TYPE</h2>
+         <label> <input type="radio" name="ordertype" value="dinein">Dine In</label> 
+         <label> <input type="radio" name="ordertype" value="takeaway">Takeaway</label> 
+
+         <h2>3.LOCATIONS </h2>
+         <label> <input type="radio" name="locations" value="chelsea">Chelsea</label> 
+         <label> <input type="radio" name="locations" value="williamstown">Williamstown</label> 
+
+         <div class="order-summary"> 
+           <h3>Order Summary</h3>
+           <p>Subtotal</p>
+           <p>Total</p>
+           <button>Place Order</button> 
+         </div>
     </main>
 </body>
 </html>
