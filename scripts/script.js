@@ -4,7 +4,7 @@ let order = {
     
 };
 
-let prices = {
+let price = {
  greenCurry: 22,
  padThai: 25
 
@@ -25,3 +25,15 @@ function decreaseQty(item) {
     }
 }
 
+function updateCart () {
+    let cartHTML= ""
+    let total=0
+    for (let item in order){
+        if (order[item] > 0) {
+            let itemTotal= order [item] * price [item];
+            cartHTML += `<p> ${item}: ${order[item]} x $${price[item]} = $${itemTotal} </p>` 
+            total += itemTotal;
+        }
+
+    }
+}
