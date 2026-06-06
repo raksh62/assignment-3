@@ -34,6 +34,6 @@ function updateCart () {
             cartHTML += `<p> ${item}: ${order[item]} x $${price[item]} = $${itemTotal} </p>` 
             total += itemTotal;
         }
-
+document.getElementById("cartsum").innerHTML = cartHTML
     }
 }
