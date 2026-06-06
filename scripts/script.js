@@ -1,11 +1,27 @@
+let order = {
+    greenCurry: 0,
+    padThai: 0
+    
+};
 
-const searchBar = document.getElementById("searchBar")
-searchBar.addEventListener("input", function() {
-    console.log(searchBar.value );
-});
+let prices = {
+ greenCurry: 22,
+ padThai: 25
 
-const padThaiPrice = 22;
-const greenCurryPrice =25;
+};
 
-let orderTotal=padThaiPrice+ greenCurryPrice;
-console.log (orderTotal);
+function increaseQty(item) {
+    order[item]++;
+    document.getElementById(item + "Qty").textContent = order[item];
+    updateCart()
+}
+
+function decreaseQty(item) {
+    if (order[item] > 0) {
+        order[item]--;
+        document.getElementById(item + "Qty").textContent = order[item];
+        updateCart()
+
+    }
+}
+
