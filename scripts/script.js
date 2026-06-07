@@ -13,6 +13,14 @@ let price = {
  redCurry:20,
 };
 
+let names = {
+    padThai: Pad Thai,
+    greenCurry: Gaeng Keow Won (Green Curry),
+    padSee: Pad See EW,
+    redCurry: Red Curry,
+    
+}
+
 let description = {
     padThai:"Stir fried rice noodles with  egg, bean sprouts, spring onion and crushed peanuts, tossed in a tamarind sauce. Served with lime.",
     greenCurry: "Traditional Thai green curry with coconut milk and seasonal vegetables. Served with Jasmine Rice.",
@@ -26,7 +34,7 @@ dishCards.forEach(function(card) {
 
     card.addEventListener("click", function() {
         let item = card.id;
-        document.getElementById("dishTitle").textContent = item;
+        document.getElementById("dishTitle").textContent = names [item';
         document.getElementById("dishPrice").textContent = "$" + price[item];
         document.getElementById("dishDesc").textContent = description[item];
         document.getElementById("dishPanel").style.display = "block";
