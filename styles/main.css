@@ -210,6 +210,13 @@ font-size: 0.9rem;
 .site-footer a {
   color: var(--gold);
 }
+
+.dish-card {
+    display: flex;
+}
+
+
+
 .checkout-title{
     color:var(--gold);
     font-size: 3rem;
