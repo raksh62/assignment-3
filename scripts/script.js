@@ -26,6 +26,9 @@ dishCards.forEach(function(card) {
 
     card.addEventListener("click", function() {
         let item = card.id;
+        document.getElementById("dishTitle").textContent = item;
+        document.getElementById("dishPrice").textContent = "$" + price[item];
+        document.getElementById("dishDesc").textContent = description[item];
         document.getElementById("dishPanel").style.display = "block";
         console.log(item);
 
