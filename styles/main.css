@@ -276,6 +276,13 @@ font-size: 0.9rem;
 
 }
 
+#dishImg {
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+
 
 .checkout-title{
     color:var(--gold);
