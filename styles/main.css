@@ -131,7 +131,7 @@ color: var(--gold);
 }
 
 .story-btn:hover{
-    transform: scale(1.05);
+    transform: scale(1.2);
     background-color: var(--gold);
     color: white;
 }
@@ -211,8 +211,18 @@ font-size: 0.9rem;
   color: var(--gold);
 }
 
-.dish-card {
+
+.dish-list {
     display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+}
+
+.dish-card{
+  text-decoration: none;
+  color: inherit;
+
 }
 
 
