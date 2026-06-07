@@ -6,8 +6,9 @@ let order = {
 
 let price = {
  greenCurry: 22,
- padThai: 25
-
+ padThai: 25,
+ padSee: 23,
+ redCurry:20,
 };
 
 function increaseQty(item) {
