@@ -225,6 +225,24 @@ font-size: 0.9rem;
 
 }
 
+.dish-card article {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-green);
+    border: 0.2rem solid var(--gold);
+    gap: 1.4rem;
+    border-radius: 10px;
+    padding: 0.8rem 1.2rem;
+
+}
+
+.dish-card img{
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
 
 
 .checkout-title{
