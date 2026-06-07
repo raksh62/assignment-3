@@ -106,7 +106,7 @@ nav a {
     display: inline-block;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:#E85C20;
-    color: white;
+    text-align: center;
     text-decoration: none;
     border-radius: 10px;
     padding: 8px;
@@ -132,6 +132,8 @@ color: var(--gold);
 
 .story-btn:hover{
     transform: scale(1.05);
+    background-color: var(--gold);
+    color: white;
 }
 
 .gold-btn{
@@ -189,6 +191,24 @@ color: var(--orange);
 .location-phone {
 color: var(--teal);
 font-size: 0.9rem;
+}
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--light-green);
+    color: white;
+
+    padding: 2rem 3rem;
+
+    border-top: 1px solid var(--light-green);
+}
+.site-footer {
+    margin-top: 3rem;
+  }
+.site-head a,
+.site-footer a {
+  color: var(--gold);
 }
 .checkout-title{
     color:var(--gold);
