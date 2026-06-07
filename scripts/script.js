@@ -25,8 +25,9 @@ const dishCards = document.querySelectorAll(".dish-card");
 dishCards.forEach(function(card) {
 
     card.addEventListener("click", function() {
-
+        let item = card.id;
         document.getElementById("dishPanel").style.display = "block";
+        console.log(item);
 
     });
 
