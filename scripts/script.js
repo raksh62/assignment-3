@@ -6,6 +6,13 @@ let order = {
     
 };
 
+let images ={
+    padThai: "assets/pad thai.png",
+    greenCurry:"assets/Thai Green Curry.png",
+    padSee: "assets/pad see e.png",
+    redCurry: "assets/red curry.png",
+}
+
 let price = {
  padThai: 25,
  greenCurry: 22,
@@ -14,10 +21,10 @@ let price = {
 };
 
 let names = {
-    padThai: Pad Thai,
-    greenCurry: Gaeng Keow Won (Green Curry),
-    padSee: Pad See EW,
-    redCurry: Red Curry,
+    padThai: "Pad Thai",
+    greenCurry: "Gaeng Keow Won (Green Curry)",
+    padSee: "Pad See Ew",
+    redCurry: "Red Curry",
     
 }
 
@@ -28,13 +35,15 @@ let description = {
     redCurry: "Traditional Thai style curry simmered in coconut milk. Served with Jasmine Rice. "
 }
 
+
 const dishCards = document.querySelectorAll(".dish-card");
 
 dishCards.forEach(function(card) {
 
     card.addEventListener("click", function() {
         let item = card.id;
-        document.getElementById("dishTitle").textContent = names [item';
+        document.getElementById("dishImage").src = images [item];
+        document.getElementById("dishTitle").textContent = names[item];
         document.getElementById("dishPrice").textContent = "$" + price[item];
         document.getElementById("dishDesc").textContent = description[item];
         document.getElementById("dishPanel").style.display = "block";
