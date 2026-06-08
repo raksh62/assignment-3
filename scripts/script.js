@@ -37,16 +37,19 @@ let description = {
 
 
 const dishCards = document.querySelectorAll(".dish-card");
+let selectedItem=""
 
 dishCards.forEach(function(card) {
 
     card.addEventListener("click", function() {
         let item = card.id;
+        selectedItem=item;
         document.getElementById("dishImage").src = images [item];
         document.getElementById("dishTitle").textContent = names[item];
         document.getElementById("dishPrice").textContent = "$" + price[item];
         document.getElementById("dishDesc").textContent = description[item];
         document.getElementById("dishPanel").style.display = "block";
+        document.getElementById("selectedQty").textContent= order [item]
         console.log(item);
 
     });
@@ -60,14 +63,14 @@ document.getElementById("closePanel").addEventListener("click", function (){
 
 function increaseQty(item) {
     order[item]++;
-    document.getElementById(item + "Qty").textContent = order[item];
+    document.getElementById("selectedQty").textContent = order[item];
     updateCart()
 }
 
 function decreaseQty(item) {
     if (order[item] > 0) {
         order[item]--;
-        document.getElementById(item + "Qty").textContent = order[item];
+        document.getElementById("selectedQty").textContent = order[item];
         updateCart()
 
     }
