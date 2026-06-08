@@ -69,7 +69,10 @@ margin-top: 20px;
 
 .close-btn{
     background: none;
+    border: none;
     position: absolute;
+    top: 1rem;
+    right: 1rem;
     color: white;
     font-size: 2rem;
 }
@@ -271,7 +274,10 @@ font-size: 0.9rem;
     font-weight: 600;
     font-family: 'DM sans', sans-serif;
     margin-left: auto;
+}
 
+.menu-buttons{
+    
 }
 
 #dishPanel {
