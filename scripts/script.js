@@ -61,6 +61,10 @@ document.getElementById("closePanel").addEventListener("click", function (){
 
 });
 
+document.getElementById("addToOrder").addEventListener("click", function() {
+    alert("Added to order!");
+});
+
 function increaseQty(item) {
     order[item]++;
     document.getElementById("selectedQty").textContent = order[item];

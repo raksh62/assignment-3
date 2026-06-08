@@ -369,6 +369,17 @@ font-size: 0.9rem;
    background: none ;
 }
 
+#addToOrder{
+    background-color: var(--gold);
+    width: 100%;
+    height: 6rem;
+    color: var(--dark);
+    border: none;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
 
 
 .checkout-title{
