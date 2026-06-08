@@ -72,18 +72,17 @@
     </section>
 
     <aside id="dishPanel">
-        <div class="quan-control">
-            <button onclick="decreaseQty(selectedItem)">-</button>
-            <span>0</span>
-            <button onclick="increaseQty(selectedItem)">+</button>
-
-        </div>
+       
         <button id="closePanel"> X</button>
         <img id="dishImage" src="assets/drinks page.png" alt=" DishImage">
         <h2 id="dishTitle"></h2>
         <p id="dishPrice"></p>
         <p id="dishDesc"></p>
-        
+        <div class="quan-control">
+            <button onclick="decreaseQty(selectedItem)">-</button>
+            <span id="selectedQty">0</span>
+            <button onclick="increaseQty(selectedItem)">+</button>
+        </div>
 
     </aside>
 

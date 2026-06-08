@@ -339,6 +339,36 @@ font-size: 0.9rem;
     font-size: 1.8rem;
 }
 
+.quan-control{
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+ margin-top: 2rem;
+ margin-left: 2rem;
+}
+
+.quan-control button {
+    background: none;
+    width: 3rem;
+    height:3rem;
+    margin-left: 20px;
+    color: white;
+    border: 0.1rem solid var(--gold);
+    font-family: "DM sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#selectedQty{
+   margin-left: 20px;
+   color: white;
+   font-size: large;
+   font-weight: 700;
+   font-family: "DM Sans", sans-serif;
+   background: none ;
+}
+
 
 
 .checkout-title{
