@@ -53,6 +53,11 @@ dishCards.forEach(function(card) {
 
 });
 
+document.getElementById("closePanel").addEventListener("click", function (){
+    document.getElementById("dishPanel").style.display= "none";
+
+});
+
 function increaseQty(item) {
     order[item]++;
     document.getElementById(item + "Qty").textContent = order[item];
