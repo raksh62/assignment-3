@@ -381,6 +381,24 @@ font-size: 0.9rem;
     margin-top: 2rem;
 }
 
+.cart-page{
+    display: grid;
+    grid-template-columns: 2fr 1 fr;
+    gap: 2rem;
+
+}
+.cart-item{
+ flex: 2;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: var(--gold);
+ font-size: 23;
+}
+
+.order-summary{
+flex: 1;
+max-width: 800px;
+}
+
 
 .checkout-title{
     color:var(--gold);
