@@ -66,8 +66,8 @@ document.getElementById("addToOrder").addEventListener("click", function() {
 });
 
 function increaseQty(item) {
-    localStorage.setItem("order")
     order[item]++;
+    localStorage.setItem("order")
     document.getElementById("selectedQty").textContent = order[item];
     updateCart()
 }
@@ -75,6 +75,7 @@ function increaseQty(item) {
 function decreaseQty(item) {
     if (order[item] > 0) {
         order[item]--;
+        localStorage.setItem("order")
         document.getElementById("selectedQty").textContent = order[item];
         updateCart()
 
