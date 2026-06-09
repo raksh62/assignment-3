@@ -67,7 +67,7 @@ document.getElementById("addToOrder").addEventListener("click", function() {
 
 function increaseQty(item) {
     order[item]++;
-    localStorage.setItem("order")
+    localStorage.setItem("order", JSON.stringify(order))
     document.getElementById("selectedQty").textContent = order[item];
     updateCart()
 }
@@ -75,7 +75,7 @@ function increaseQty(item) {
 function decreaseQty(item) {
     if (order[item] > 0) {
         order[item]--;
-        localStorage.setItem("order")
+        localStorage.setItem("order", JSON.stringify(order))
         document.getElementById("selectedQty").textContent = order[item];
         updateCart()
 

@@ -1,4 +1,5 @@
 
+let order = JSON.parse(localStorage.getItem("order"))
 let order = {
     padThai: 0,
     greenCurry: 0,
@@ -33,6 +34,7 @@ function updateCart () {
             total += itemTotal;
         }
     }
+
     document.getElementById("cartsum").innerHTML = cartHTML
     document.getElementById("subtotal").textContent = "$Subtotal" + total;
     document.getElementById("total").textContent = "$Total" + total;
