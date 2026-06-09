@@ -383,20 +383,36 @@ font-size: 0.9rem;
 
 .cart-page{
     display: grid;
-    grid-template-columns: 2fr 1 fr;
+    grid-template-columns: 2fr 1fr;
+    min-height: 100vh;
     gap: 2rem;
 
 }
 .cart-item{
- flex: 2;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- color: var(--gold);
- font-size: 23;
+ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--gold);
+    font-size: 4rem;
+    font-weight: 500;
 }
 
 .order-summary{
-flex: 1;
-max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--gold);
+    min-height: 100vh;
+    background-color: var(--dark);
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.cart-totals{
+    margin-top: 12rem;
+
 }
 
 
