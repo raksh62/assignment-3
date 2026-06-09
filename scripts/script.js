@@ -26,7 +26,7 @@ let names = {
     padSee: "Pad See Ew",
     redCurry: "Red Curry",
     
-}
+};
 
 let description = {
     padThai:"Stir fried rice noodles with  egg, bean sprouts, spring onion and crushed peanuts, tossed in a tamarind sauce. Served with lime.",
