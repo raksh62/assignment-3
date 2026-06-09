@@ -1,12 +1,15 @@
 
 let order = JSON.parse(localStorage.getItem("order"))
-let order = {
+
+if(!order){
+    order={
     padThai: 0,
     greenCurry: 0,
     padSee: 0,
     redCurry:0,
-    
-};
+    };
+}
+
 let price = {
     padThai: 25,
     greenCurry: 22,
@@ -30,7 +33,7 @@ function updateCart () {
         if (order[item] > 0) {
             let itemTotal= order [item] * price [item];
 
-            cartHTML += `<p> ${item}: ${order[item]} x $${price[item]} = $${itemTotal} </p>` 
+            cartHTML += `<p> ${names[item]}: ${order[item]} x $${price[item]} = $${itemTotal} </p>` 
             total += itemTotal;
         }
     }
