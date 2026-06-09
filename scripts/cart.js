@@ -28,17 +28,30 @@ let names = {
 
 function updateCart () {
     let cartHTML= ""
+    let summaryHTML=""
     let total=0
     for (let item in order){
         if (order[item] > 0) {
             let itemTotal= order [item] * price [item];
 
-            cartHTML += `<p> ${names[item]}: ${order[item]} x $${price[item]} = $${itemTotal} </p>` 
+            cartHTML+= 
+            `<article class= "cart-card"> 
+
+
+
+
+            </article>
+            `
+
+
+            summaryHTML += `<p> ${names[item]}: ${order[item]} x $${price[item]} = $${itemTotal} </p>` ;
+
             total += itemTotal;
         }
     }
 
-    document.getElementById("cartsum").innerHTML = cartHTML
+    document.getElementById("cartSum").innerHTML = summaryHTML
+    document.getElementById("cartItems").innerHTML = cartHTML
     document.getElementById("subtotal").textContent = "Subtotal $" + total;
     document.getElementById("total").textContent = "Total $" + total;
 }

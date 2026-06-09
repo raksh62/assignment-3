@@ -414,7 +414,18 @@ font-size: 0.9rem;
     box-sizing: border-box;
 }
 
-.cart-totals{
+.summary-bottom p{
+    margin-top: auto;
+    color: var(--teal);
+
+}
+
+.summary-bottom h3{
+    margin-top: auto;
+    color: white;
+}
+
+.cart-total{
     margin-top: 12rem;
     
 }
