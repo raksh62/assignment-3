@@ -393,11 +393,12 @@ font-size: 0.9rem;
 
 }
 .cart-item h1{
- 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: var(--gold);
     font-size: 4rem;
     font-weight: 500;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 .cart-card {
@@ -477,6 +478,17 @@ font-size: 0.9rem;
     
 }
 
+.cart-checkout-btn{
+    display: block;
+    background-color: var(--gold);
+    color: var(--dark);
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
 
 .checkout-title{
     color:var(--gold);
