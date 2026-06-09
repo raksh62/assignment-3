@@ -447,19 +447,16 @@ font-size: 0.9rem;
     margin-right: 0.5rem;
 }
 
-.order-summary{
+.cart-order-summary{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: "DM Sans", sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--gold);
     min-height: 100vh;
     background-color: var(--dark);
     padding: 2rem;
     box-sizing: border-box;
 }
+
 
 
 .summary-bottom p{
