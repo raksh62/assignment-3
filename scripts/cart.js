@@ -25,6 +25,14 @@ let names = {
        
    };
 
+let images ={
+    padThai: "assets/pad thai.png",
+    greenCurry:"assets/Thai Green Curry.png",
+    padSee: "assets/pad see e.png",
+    redCurry: "assets/red curry.png",
+}
+
+
 
 function updateCart () {
     let cartHTML= ""
@@ -36,10 +44,15 @@ function updateCart () {
 
             cartHTML+= 
             `<article class= "cart-card"> 
+            <img src= "${images[item]}" alt="${names[item]}">
 
+            <div class= "cart-info">
+            <h2>${names[item]} </h2>
+            <p> Mild </p>
+            <p> Quantity :${order[item]} </p>
+            </div>
 
-
-
+            <p class="cart-card-price">$${itemTotal}</p>
             </article>
             `
 
