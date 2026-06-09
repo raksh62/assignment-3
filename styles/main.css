@@ -24,6 +24,8 @@ header{
     padding: 24px 50px;
 }
 
+
+
 .site-head h1{
     color:white;
     margin-bottom: 1.1rem;
@@ -112,9 +114,11 @@ nav a {
     padding: 8px;
     width: 200px;
 }
+
 .btn:hover{
     transform: scale(1.05);
 }
+
 .hero-buttons{
     display: inline-block;
 }
@@ -412,7 +416,7 @@ font-size: 0.9rem;
 
 .cart-totals{
     margin-top: 12rem;
-
+    
 }
 
 

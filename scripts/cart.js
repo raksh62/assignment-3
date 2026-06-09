@@ -32,9 +32,9 @@ function updateCart () {
             cartHTML += `<p> ${item}: ${order[item]} x $${price[item]} = $${itemTotal} </p>` 
             total += itemTotal;
         }
-
     }
     document.getElementById("cartsum").innerHTML = cartHTML
     document.getElementById("subtotal").textContent = "$Subtotal" + total;
     document.getElementById("total").textContent = "$Total" + total;
 }
+updateCart ()

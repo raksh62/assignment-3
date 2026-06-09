@@ -66,6 +66,7 @@ document.getElementById("addToOrder").addEventListener("click", function() {
 });
 
 function increaseQty(item) {
+    localStorage.setItem("order")
     order[item]++;
     document.getElementById("selectedQty").textContent = order[item];
     updateCart()
