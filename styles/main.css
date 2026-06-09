@@ -452,9 +452,30 @@ font-size: 0.9rem;
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    background-color: var(--dark);
+    background-color: var(--dark-green);
     padding: 2rem;
     box-sizing: border-box;
+}
+
+.cart-order-summary h2 {
+    font-family: "DM Sans", sans-serif;
+    color: var(--gold);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.cart-order-summary p {
+    font-family: "DM Sans", sans-serif;
+    color: var(--teal);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.cart-order-summary h3 {
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 
@@ -485,6 +506,16 @@ font-size: 0.9rem;
     border-radius: 10px;
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
+}
+
+.back-cart {
+    color: black;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: "DM SANS", sans-serif;
+    text-decoration: none;
+    background: none;
 }
 
 .checkout-title{
