@@ -39,7 +39,7 @@ function updateCart () {
     }
 
     document.getElementById("cartsum").innerHTML = cartHTML
-    document.getElementById("subtotal").textContent = "$Subtotal" + total;
-    document.getElementById("total").textContent = "$Total" + total;
+    document.getElementById("subtotal").textContent = "Subtotal $" + total;
+    document.getElementById("total").textContent = "Total $" + total;
 }
 updateCart ()
