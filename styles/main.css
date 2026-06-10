@@ -508,10 +508,10 @@ font-size: 0.9rem;
     font-weight: 700;
 }
 
-.back-cart {
-    color: black;
+.back-cart a{
+    color: white;
     text-transform: capitalize;
-    font-size: 0.8rem;
+    font-size: 2rem;
     font-weight: 500;
     font-family: "DM SANS", sans-serif;
     text-decoration: none;
