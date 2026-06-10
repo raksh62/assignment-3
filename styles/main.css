@@ -660,7 +660,15 @@ margin-bottom: 0.5rem;
 
 }
 
+.confirmation-detail h2{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 15px;
+   
+}
 
 .confirmation-order{
 background-color: var(--dark-green);
+color: white;
+flex: 1;  
 }
