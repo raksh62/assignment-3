@@ -639,3 +639,13 @@ margin-bottom: 0.5rem;
     margin-left: 2rem;
     
 }
+
+.confirmation-detail{
+    background-color: var(--light-green);
+
+
+}
+
+.confirmation-order{
+background-color: var(--dark-green);
+}
