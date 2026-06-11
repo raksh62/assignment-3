@@ -24,9 +24,23 @@ let names = {
        
    };
 
-let images ={
-    padThai: "assets/pad thai.png",
-    greenCurry:"assets/Thai Green Curry.png",
-    padSee: "assets/pad see e.png",
-    redCurry: "assets/red curry.png",
+
+
+   function updateCheckout () {
+    let summaryHTML=""
+    let total=0
+    for (let item in order){
+        if (order[item] > 0) {
+            let itemTotal= order [item] * price [item];
+
+            summaryHTML += `<p> ${names[item]}: ${order[item]} x $${price[item]} = $${itemTotal} </p>` ;
+
+            total += itemTotal;
+        }
+    }
+
+    document.getElementById("checkoutSummary").innerHTML = summaryHTML
+    document.getElementById("checkoutSubtotal").textContent = "Subtotal $" + total;
+    document.getElementById("checkoutTotal").textContent = "Total $" + total;
 }
+updateCheckout ()
