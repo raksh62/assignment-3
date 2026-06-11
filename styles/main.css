@@ -99,7 +99,7 @@ margin-top: 20px;
 }
 .image-card h3{
     font-family: "DM Sans", sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     left: 24px;
     bottom: 16px;
     color: var(--orange);
@@ -670,25 +670,25 @@ margin-bottom: 0.5rem;
     padding: 56px;
     background-color: var(--dark-green);
 }
-
-.confirmation-order {
-    color: white;
-    text-align: center;
+.confirmation-left{
     width: 400px;
-    background-color: var(--gold);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "DM SANS", sans-serif;
+    font-weight: bold;
 }
 
-.confirmation-order h1 {
-    font-size: 32px;
-    margin-bottom: 8px;
+.confirmation-left h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-family: "DM SANS", sans-serif;
+    font-weight: bold;
 }
 
-.confirmation-order p {
-    font-size: 22px;
-    color: var(--mint);
+.confirmation-left p{
+    color: var(--teal);
+    font-size: 2rem;
+    margin-bottom: 64px;
 }
 
 .confirmation-detail {
@@ -700,4 +700,16 @@ margin-bottom: 0.5rem;
     border-radius: 10px;
 }
 
+.home-button{
+    display: inline-block;
+    background-color: var(--gold);
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 22px 80px;
+    text-decoration: none;
+    font-family: "DM SANS", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
 
