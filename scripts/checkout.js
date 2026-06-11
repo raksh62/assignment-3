@@ -43,4 +43,6 @@ let names = {
     document.getElementById("checkoutSubtotal").textContent = "Subtotal $" + total;
     document.getElementById("checkoutTotal").textContent = "Total $" + total;
 }
+
+document.getElementById
 updateCheckout ()
