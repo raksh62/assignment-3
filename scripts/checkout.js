@@ -44,7 +44,7 @@ let names = {
     document.getElementById("checkoutTotal").textContent = "Total $" + total;
 }
 
-document.getElementById("finalOrder")
+document.getElementById("finishOrder")
 .addEventListener("click",function(){
     localStorage.setItem("placeOrder", JSON.stringify(order)
 );
