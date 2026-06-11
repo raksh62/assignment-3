@@ -1,11 +1,15 @@
-let order = {
-    padThai: 0,
-    greenCurry: 0,
-    padSee: 0,
-    redCurry:0,
-    
-};
 
+let order = JSON.parse(localStorage.getItem("order"))
+if (!order){
+    order={
+        padThai: 0,
+        greenCurry: 0,
+        padSee: 0,
+        redCurry:0,
+    };
+}
+    
+    
 let images ={
     padThai: "assets/pad thai.png",
     greenCurry:"assets/Thai Green Curry.png",
@@ -32,7 +36,7 @@ let description = {
     padThai:"Stir fried rice noodles with  egg, bean sprouts, spring onion and crushed peanuts, tossed in a tamarind sauce. Served with lime.",
     greenCurry: "Traditional Thai green curry with coconut milk and seasonal vegetables. Served with Jasmine Rice.",
     padSee: "Stir fried wide noodles with egg, chinese broccoli and your choice of protein, tossed in a rich sauce. ",
-    redCurry: "Traditional Thai style curry simmered in coconut milk. Served with Jasmine Rice. "
+    redCurry: "Traditional Thai style curry simmered in coconut milk. Served with Jasmine Rice."
 }
 
 
@@ -53,7 +57,6 @@ dishCards.forEach(function(card) {
         console.log(item);
 
     });
-
 });
 
 document.getElementById("closePanel").addEventListener("click", function (){
@@ -69,7 +72,7 @@ function increaseQty(item) {
     order[item]++;
     localStorage.setItem("order", JSON.stringify(order))
     document.getElementById("selectedQty").textContent = order[item];
-    updateCart()
+    
 }
 
 function decreaseQty(item) {
@@ -77,7 +80,7 @@ function decreaseQty(item) {
         order[item]--;
         localStorage.setItem("order", JSON.stringify(order))
         document.getElementById("selectedQty").textContent = order[item];
-        updateCart()
+        
 
     }
 }
