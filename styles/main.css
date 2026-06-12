@@ -633,6 +633,23 @@ width: 40px;
     background: none;
 }
 
+.checkout-site-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-green);
+    padding: 24px;
+    height: 80px;
+    overflow: hidden;
+
+}
+
+.confirm-left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .checkout-title{
     color:var(--gold);
     font-size: 3rem;
