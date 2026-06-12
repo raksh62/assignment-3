@@ -36,7 +36,7 @@ let names = {
             total += itemTotal;
         }
     }
-    document.getElementById("confirmationSummary")=confirmationHTML
+    document.getElementById("confirmationSummary").innerHTML=confirmationHTML
     document.getElementById("confirmationTotal").textContent= "Total Paid: $" + total;
 
 
