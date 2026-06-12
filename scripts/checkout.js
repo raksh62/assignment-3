@@ -50,4 +50,14 @@ document.getElementById("finishOrder")
 );
 
 });
+function updateCartCount () {
+    let totalItems= 0;
+    for (let item in order){
+        totalItems += order[item];
+    }
+    document.getElementById("cartCount").textContent= totalItems
+
+}
+
 updateCheckout ()
+updateCartCount ()
