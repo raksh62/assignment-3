@@ -21,7 +21,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: var(--dark-green);
-    padding: 24px 50px;
+    padding: 24px;
     height: 80px;
     overflow: hidden;
 }
@@ -775,4 +775,23 @@ margin-bottom: 0.5rem;
 .conf-tick{
     width: 300px;
     height: 200px;
+}
+
+.confirm-site-logo{
+    width: 300px;
+    height: auto;
+    margin-top: 2rem;
+    display: block;
+ 
+}
+
+.confirm-site-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-green);
+    padding: 24px;
+    height: 200px;
+    overflow: hidden;
+}
 }
