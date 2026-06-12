@@ -35,7 +35,7 @@ header{
 
 .site-logo{
     margin-top: 30px;
-    width: 130px;
+    width: 120px;
     height: auto;
 }
 .search-row{
@@ -409,6 +409,18 @@ font-size: 0.9rem;
     font-weight: 700;
     font-size: 1rem;
     margin-top: 2rem;
+}
+
+.menu-site-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--light-green);
+    color: white;
+    padding: 2rem 3rem;
+    border-top: 1px solid var(--light-green);
+    margin-top: 3rem;
+
 }
 
 .cart-page{
