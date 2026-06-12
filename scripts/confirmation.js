@@ -1,7 +1,7 @@
 let placeOrder= JSON.parse(localStorage.getItem( "placeOrder"));
 
-if(!order){
-    order={
+if(!placeOrder){
+    placeOrder={
     padThai: 0,
     greenCurry: 0,
     padSee: 0,
@@ -27,16 +27,16 @@ let names = {
    function updateCheckout (){
     let confirmationHTML=""
     let total=0
-    for (let item in order){
-        if (order[item] > 0) {
-            let itemTotal= order [item] * price [item];
+    for (let item in placeOrder){
+        if (placeOrder[item] > 0) {
+            let itemTotal= placeOrder [item] * price [item];
 
-            confirmationHTMLHTML += `<p> ${names[item]}: ${order[item]} x $${price[item]} = $${itemTotal} </p>` ;
+            confirmationHTML += `<p> ${names[item]}: ${placeOrder[item]} x $${price[item]} = $${itemTotal} </p>` ;
 
             total += itemTotal;
         }
     }
-    document.getElementById("confirmationSummary").innerHTML=confirmationHTML
+    document.getElementById("confirmationSummary").innerHTML=confirmationHTML;
     document.getElementById("confirmationTotal").textContent= "Total Paid: $" + total;
 
 
