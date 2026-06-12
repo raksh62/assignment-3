@@ -11,7 +11,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px ;
     background: var(--dark-green);
     position: sticky;
 }
@@ -539,12 +539,33 @@ font-size: 0.9rem;
     font-weight: 700;
 }
 
-
-.cart-home{
-    width: 40px;
-
+.cart-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+.cart-head h1{
+    margin: 0;
+    padding: 0;
+     margin-right: auto;
 }
 
+.cart-home{
+width: 40px;
+}
+
+.cart-site-logo{
+    width: 200px;
+    height: auto;
+    margin-top: 2rem;
+    display: block;
+ 
+}
 .cart-checkout-btn{
     display: block;
     background-color: var(--gold);
