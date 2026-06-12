@@ -232,8 +232,6 @@ font-size: 0.9rem;
     background-color: var(--light-green);
     color: white;
 
-    padding: 2rem 3rem;
-
     border-top: 1px solid var(--light-green);
 }
 .site-head a,
@@ -241,6 +239,9 @@ font-size: 0.9rem;
   color: var(--gold);
 }
 
+.footer-locations{
+
+}
 
 .dish-list {
     display: flex;
