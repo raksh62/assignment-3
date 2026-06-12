@@ -73,11 +73,12 @@ function updateCartCount () {
     for (let item in order){
         totalItems += order[item];
     }
-    document.getElementById("cartCount).textContent= totalItems
+    document.getElementById("cartCount").textContent= totalItems
 
 }
 
 function increaseQty(item) {
+    console.log("clicked item:", item);
     order[item]++;
     localStorage.setItem("order", JSON.stringify(order))
     document.getElementById("selectedQty").textContent = order[item];
@@ -94,4 +95,4 @@ function decreaseQty(item) {
     }
 }
 
-updatecartCount ()
+updateCartCount ()
