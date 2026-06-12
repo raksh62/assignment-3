@@ -500,6 +500,9 @@ font-size: 0.9rem;
     font-weight: 700;
 }
 
+.summary-bottom{
+    margin-top: auto;
+}
 
 
 .summary-bottom p{
@@ -513,9 +516,17 @@ font-size: 0.9rem;
     color: white;
 }
 
-.cart-total{
-    margin-top: 12rem;
-    
+.summary-top{
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.cart-home{
+    width: 40px;
+
 }
 
 .cart-checkout-btn{
