@@ -22,6 +22,8 @@ header{
     align-items: center;
     background-color: var(--dark-green);
     padding: 24px 50px;
+    height: 80px;
+    overflow: hidden;
 }
 
 
@@ -31,6 +33,11 @@ header{
     margin-bottom: 1.1rem;
 }
 
+.site-logo{
+    margin-top: 30px;
+    width: 130px;
+    height: auto;
+}
 .search-row{
     display: flex;
     align-items: center;
@@ -229,9 +236,6 @@ font-size: 0.9rem;
 
     border-top: 1px solid var(--light-green);
 }
-.site-footer {
-    margin-top: 3rem;
-  }
 .site-head a,
 .site-footer a {
   color: var(--gold);
@@ -622,6 +626,8 @@ margin-bottom: 0.5rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
     min-height: 100vh;
+    align-items: stretch;
+    background-color: var(--dark);
 
 }
 
@@ -630,7 +636,7 @@ margin-bottom: 0.5rem;
     align-items: stretch;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
 }
 .order-summary h3{
     font-family: 'DM Sans', sans-serif;
@@ -659,25 +665,10 @@ margin-bottom: 0.5rem;
     margin-top:10px;
     margin-left:10px;
 }
-.checkout-btn{
-    display: inline-block;
-    font-family: 'DM sans', sans-serif;
-    font-size: 2rem;
-    background-color: rgba(232, 160, 32, 1);
-    color: var(--dark-green);
-    text-decoration: none;
-    border-radius: 10px;
-    border:none;
-    padding: 20px;
-    width: 400px;
-    margin-top: 30rem;
-    margin-left: 2rem;
-    
-}
 
 .bottom-checkout{
     margin-top: auto;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 .confirmation-page {
