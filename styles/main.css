@@ -410,6 +410,28 @@ font-size: 0.9rem;
     font-size: 1rem;
     margin-top: 2rem;
 }
+.cart-icon{
+position: relative;
+display: inline-block;
+}
+
+#cartCount{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    bottom:-8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+
+}
 
 .menu-site-footer{
     display: flex;
@@ -422,6 +444,8 @@ font-size: 0.9rem;
     margin-top: 3rem;
 
 }
+
+
 
 .cart-page{
     display: grid;
@@ -793,5 +817,4 @@ margin-bottom: 0.5rem;
     padding: 24px;
     height: 200px;
     overflow: hidden;
-}
 }
