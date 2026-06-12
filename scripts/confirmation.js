@@ -37,7 +37,8 @@ let names = {
         }
     }
     document.getElementById("confirmationSummary")=confirmationHTML
-    document.getElementById("")
+    document.getElementById("confirmationTotal").textContent= "Total Paid: $" + total;
+
 
 }
 
