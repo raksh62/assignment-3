@@ -37,6 +37,7 @@ let names = {
         }
     }
     document.getElementById("confirmationSummary")=confirmationHTML
+    document.getElementById("")
 
 }
 
