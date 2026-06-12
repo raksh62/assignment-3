@@ -695,9 +695,17 @@ margin-bottom: 0.5rem;
     background-color: var(--light-green);
     color: white;
     width: 400px;
-    min-height: 450px;
+    min-height: 500px;
     padding: 50px;
     border-radius: 10px;
+}
+
+.confirmation-detail h2{
+    font-family: "DM Sans", sans-serif;
+    color: var(--teal);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .home-button{
@@ -713,3 +721,10 @@ margin-bottom: 0.5rem;
     font-size: 1rem;
 }
 
+.totalconf{
+    color: white;
+    font-size: 2rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    margin-top: 400px;
+}
