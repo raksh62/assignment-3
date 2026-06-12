@@ -68,10 +68,13 @@ document.getElementById("addToOrder").addEventListener("click", function() {
     alert("Added to order!");
 });
 
+function updateCartCount ()
+
 function increaseQty(item) {
     order[item]++;
     localStorage.setItem("order", JSON.stringify(order))
     document.getElementById("selectedQty").textContent = order[item];
+    updateCartCount();
     
 }
 
@@ -80,8 +83,7 @@ function decreaseQty(item) {
         order[item]--;
         localStorage.setItem("order", JSON.stringify(order))
         document.getElementById("selectedQty").textContent = order[item];
-        
-
+        updateCartCount();
     }
 }
 
