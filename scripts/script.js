@@ -68,7 +68,14 @@ document.getElementById("addToOrder").addEventListener("click", function() {
     alert("Added to order!");
 });
 
-function updateCartCount ()
+function updateCartCount () {
+    let totalItems= 0;
+    for (let item in order){
+        totalItems += order[item];
+    }
+    document.getElementById("cartCount).textContent= totalItems
+
+}
 
 function increaseQty(item) {
     order[item]++;
@@ -87,3 +94,4 @@ function decreaseQty(item) {
     }
 }
 
+updatecartCount ()
