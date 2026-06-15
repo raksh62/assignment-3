@@ -913,14 +913,32 @@ margin-bottom: 0.5rem;
         align-items: center;
         max-width: 100%;
         padding: 1.5rem;
-        gap:1rem;
+        gap: 1rem;
         text-align: left; 
         padding: 2rem 1rem;
     }
-    
+
+    .footer-info,
+    .footer-locations,
+    .footer-copy {
+        width: 100%;
+        margin: 0;
+    }
 
     .footer-logo, .footer-info img{
         width: 80px;
-        margin-bottom: 1rem;
+        align-items: center;
+    
+    }
+
+    .footer-locations h3,
+    .footer-copy p {
+        font-size: 1.4rem;
+        line-height: 1.2;
+    }
+
+    .footer-locations p {
+        font-size: 1.2rem;
+        line-height: 1.2;
     }
 }
