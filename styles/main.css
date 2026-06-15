@@ -1012,6 +1012,20 @@ margin-bottom: 0.5rem;
      
     }
 
+    .bottom-checkout{
+        margin-top: 2rem;
+    }
+    .cart-checkout-btn{
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    
+
+
 
 
 }
