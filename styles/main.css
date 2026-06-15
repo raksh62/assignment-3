@@ -113,7 +113,7 @@ margin-top: 20px;
     font-weight: 500;
     left: 24px;
     bottom: 16px;
-    color: white;
+    color:var(--orange);
     margin-bottom: 1rem;
 }
 
