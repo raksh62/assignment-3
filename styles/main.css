@@ -1060,6 +1060,18 @@ margin-bottom: 0.5rem;
         width: 180px;
     }
 
+    .confirmation-left{
+        order: 1;
+    }
+
+    .confirmation-detail{
+        order: 2;
+    }
+
+    .home-button{
+        order: 3;
+    }
+
     
 
 
