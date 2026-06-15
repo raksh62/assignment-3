@@ -1023,6 +1023,12 @@ margin-bottom: 0.5rem;
         box-sizing: border-box;
     }
 
+    .checkout-page, .order-summary{
+        min-height: auto;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
     
 
 
