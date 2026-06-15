@@ -999,8 +999,11 @@ margin-bottom: 0.5rem;
 
     }
 
-    .checkout-form,.checkout-type{
-        
+    .checkout-form, .checkout-type{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
     }
 
 
