@@ -863,6 +863,7 @@ margin-bottom: 0.5rem;
 
 @media screen and (max-width: 390px){
     .grid {
+        display: flex;
         grid-template-columns: 1fr;  
         gap: 1.5rem;  
         width: 100%;
@@ -884,19 +885,24 @@ margin-bottom: 0.5rem;
         line-height: 0.9;
     }
 
-    .hero-buttons a{
+
+    .hero-buttons,
+    .button-column {
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        width:100%;
+      
+    }
+    .hero-buttons{
+        margin-top: 2rem;
     }
 
-    .hero-buttons a{
-        margin-top: 0.5rem;
-        width: 100%;
+    .button-column, .btn , .hero-buttons, .story-btn{
+        width:100%;
+        max-width: 100%;
         text-align: center;
         box-sizing: border-box;
-    }
-    .btn{
-
+        margin: 0;
     }
 }
