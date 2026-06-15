@@ -974,5 +974,11 @@ margin-bottom: 0.5rem;
         width: 90px;
     }
 
+    .cart-page, .checkout-page {
+        grid-template-columns: 1fr;
+      
+
+    }
+
 
 }
