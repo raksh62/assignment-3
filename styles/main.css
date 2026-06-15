@@ -863,15 +863,40 @@ margin-bottom: 0.5rem;
 
 @media screen and (max-width: 390px){
     .grid {
-        grid-template-columns: 1fr;    
+        grid-template-columns: 1fr;  
+        gap: 1.5rem;  
+        width: 100%;
     }
     .image-card {
         width: 100%;
     }
     .image-card img {
         width:100%;
-        height:auto;
+        height:80px;
         object-fit: cover;
     }
     
+    .hero {
+        padding: 1rem;
+    }
+    .hero h1{
+        font-size: 3rem;
+        line-height: 0.9;
+    }
+
+    .hero-buttons a{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .hero-buttons a{
+        margin-top: 0.5rem;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .btn{
+        
+    }
 }
