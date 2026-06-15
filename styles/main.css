@@ -860,3 +860,18 @@ margin-bottom: 0.5rem;
     height: 200px;
     overflow: hidden;
 }
+
+@media screen and (max-width: 390px){
+    .grid {
+        grid-template-columns: 1fr;    
+    }
+    .image-card {
+        width: 100%;
+    }
+    .image-card img {
+        width:100%;
+        height:auto;
+        object-fit: cover;
+    }
+    
+}
