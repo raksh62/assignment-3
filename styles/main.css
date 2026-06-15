@@ -1029,6 +1029,9 @@ margin-bottom: 0.5rem;
         width: 100%;
         box-sizing: border-box;
     }
+    .cart-icon img{
+        width: 35px;
+    }
 
     
 
