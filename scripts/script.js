@@ -96,3 +96,4 @@ function decreaseQty(item) {
 }
 
 updateCartCount ()
+

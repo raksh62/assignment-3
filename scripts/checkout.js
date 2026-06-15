@@ -59,5 +59,22 @@ function updateCartCount () {
 
 }
 
+function cartIsEmpty() {
+    let totalItems = 0;
+
+    for (let item in order) {
+        totalItems += order[item];
+    }
+
+    return totalItems === 0;
+}
+
+if (cartIsEmpty()) {
+    alert("Your cart is empty.");
+    window.location.href = "menu.html";
+}
+
+cartIsEmpty()
+
 updateCheckout ()
 updateCartCount ()
