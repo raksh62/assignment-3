@@ -984,6 +984,25 @@ margin-bottom: 0.5rem;
         font-size: 1.5rem;
     }
 
+    .checkout-page{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        overflow-x: hidden;
+
+    }
+
+    .checkout-card {
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+
+    }
+
+    .checkout-form,.checkout-type{
+        
+    }
+
 
 
 }
